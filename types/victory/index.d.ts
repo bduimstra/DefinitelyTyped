@@ -1242,6 +1242,7 @@ declare module "victory" {
         data?: Array<{
             name?: string;
             symbol?: {
+                fill?: string;
                 type?: string;
             };
         }>;
